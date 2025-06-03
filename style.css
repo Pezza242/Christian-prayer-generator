@@ -9,4 +9,54 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-top: 45px;
+}
+#search-box {
+  padding: 25px 25px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 75px;
+  width: 550px;
+  background: rgb(133, 129, 129, 0.45);
+  border-radius: 15px;
+}
+#search-bar {
+  padding: 10px 5px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  border: 1px solid #b1afaf;
+  background-color: rgb(255, 255, 255, 0.5);
+  width: 55%;
+}
+#search-button {
+  padding: 10px 20px;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+#info {
+  color: #3d3a3a;
+  font-size: 13px;
+  margin-top: 10px;
+}
+footer {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1f1d1d;
 }

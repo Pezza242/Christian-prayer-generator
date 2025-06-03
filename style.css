@@ -41,6 +41,11 @@ h1 {
   border: 1px solid #d9d9d9;
   border-radius: 10px;
 }
+#search-button:hover {
+  background-color: #282424;
+  border: 1px solid #282424;
+  color: white;
+}
 #info {
   color: #282424;
   font-size: 13px;

@@ -17,9 +17,3 @@ new Typewriter("#prayer-answer", {
   autoStart: true,
   delay: 60,
 });
-new Typewriter("footer", {
-  strings: `Coded by  <a href="https://github.com/Pezza242" target="_blank"> Peri Williams-Yearwood</a>, open-sourced on <a href="https://github.com/Pezza242/Christian-prayer-generator" target="_blank">Github</a>, and hosted on <a href="https://shecode-ai-christian-prayer-generator.netlify.app/" target="_blank">Netlify</a>`,
-  autoStart: true,
-  cursor: "",
-  delay: 60,
-});

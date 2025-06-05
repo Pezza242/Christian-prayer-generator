@@ -78,6 +78,14 @@ a:hover {
   width: 550px;
   border-left: 8px solid #282424;
 }
+.blink-loading {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 #prayer-answer {
   text-align: center;
 }

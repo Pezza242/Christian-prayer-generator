@@ -17,6 +17,9 @@ function getPrayer(event) {
   let apiKey = "eb79bof31898546ffea432d4bb90t390";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let prayerLoading = document.querySelector("#prayer-answer");
+  prayerLoading.innerHTML = `<p class="blink-loading"> Generating a prayer about ${searchKeyword.value}...</p>`;
+
   axios.get(apiUrl).then(generatePrayer);
 }
 

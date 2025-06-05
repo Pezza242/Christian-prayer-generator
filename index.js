@@ -25,7 +25,7 @@ prayerForm.addEventListener("submit", getPrayer);
 
 new Typewriter("#prayer-answer", {
   strings:
-    " Your prayer will appear here. <br/> God bless you on your prayer journey to become closer to God. x",
+    " Your prayer will appear here. <br/> God bless you on your journey to become closer to God. x",
   autoStart: true,
   delay: 60,
 });
